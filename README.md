@@ -1,4 +1,4 @@
-# helloworld
+# Deviz Vue
 
 ## Project setup
 ```
