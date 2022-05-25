@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <v-container fill-height fluid>
+      <v-container fill-height>
         <Form />
       </v-container>
     </v-main>

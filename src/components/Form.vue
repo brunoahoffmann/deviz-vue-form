@@ -1,19 +1,18 @@
 <template>
   <v-card 
-    class="mx-auto mt-2 p-5"
     outlined
     color="transparent"
     width="100%"
   >
-    <v-row class="p-5 mx-0">
-      <v-col cols="6" lg="4" offset-lg="2">
+    <v-row>
+      <v-col cols="12" lg="6">
           <v-img
               :src="require('../assets/logo.svg')"
               width="300"
               class="mx-auto"
           ></v-img>
       </v-col>
-      <v-col cols="6" lg="4">
+      <v-col cols="12" lg="6">
         <v-form
           ref="form"
           v-model="valid"
