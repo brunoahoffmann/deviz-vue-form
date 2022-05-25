@@ -75,7 +75,7 @@
   import DevizPassword from "./DevizPassword.vue"
 
   export default {
-    name: "Form",
+    name: "DevizForm",
     components: { DevizPassword },
     data: () => ({
         valid: true,

@@ -2,20 +2,20 @@
   <v-app>
     <v-main>
       <v-container fill-height>
-        <Form />
+        <DevizForm />
       </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Form from './components/Form';
+import DevizForm from './components/DevizForm';
 
 export default {
   name: 'App',
 
   components: {
-    Form
+    DevizForm
   },
 
   data: () => ({
